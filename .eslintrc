@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "env": {
+    "browser": true
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": ["chul"],
+  "rules": {
+    "chul/chul": "error"
+  }
+}
