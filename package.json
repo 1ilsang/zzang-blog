@@ -9,10 +9,11 @@
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --open --hot",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint --ext .js,.jsx \"src/**/*.{js,jsx}\"",
+    "lint": "eslint --ext .js,.jsx \"src/**/*.{js,jsx}\" --debug",
     "fix": "eslint --fix --ext .js,.jsx \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
+    "jotai": "^2.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
